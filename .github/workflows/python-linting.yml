@@ -25,5 +25,5 @@ jobs:
       - name: Run flake8 linter
         run: |
           echo "Running flake8 linter on Python files..."
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics || true
-          echo "⚠️ Linting completed — review warnings above. The build will not fail due to lint issues."
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics 
+          echo "Linter has found issues, please fix immediately and run again."
