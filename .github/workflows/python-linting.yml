@@ -1,7 +1,7 @@
 name: Python Linter (Global)
 
 on:
-  workflow_call:  # Makes this a reusable workflow
+  workflow_call:  
 
 jobs:
   lint:
